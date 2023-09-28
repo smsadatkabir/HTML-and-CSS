@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 3000px;
+        }
+        .main-div{
+            display: flex;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 60px;
+            align-items: center;
+            padding-left: 50px;
+            padding-right: 40px;
+        }
+        .image-div{
+            margin-right: 10px;
+        }
+        .profile-image{
+            width: 30px;
+            height: 30px;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+        .name-div{
+            flex: 1;
+        }
+        .profile-name{
+            font-family: Arial;
+            font-weight: bold;
+            font-size: 14px;
+        }
+        .add-div{
+            width: 90px;
+        }
+        .add-button{
+            background-color: rgb(12, 109, 255);
+            color: white;
+            font-weight: bold;
+            border: none;
+            padding: 8px 12px 8px 12px;
+            border-radius: 5px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+        .message-div{
+            margin-left: 4px;
+        }
+        .message-button{
+            background-color: rgb(209, 209, 209);
+            color: black;
+            border: none;
+            padding: 8px 12px 8px 12px;
+            border-radius: 5px;
+            font-size: 12px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main-div">
+        <div class="image-div">
+            <img src="cat01.jpg" alt="" class="profile-image">
+        </div>
+        <div class="name-div">
+            <p class="profile-name">
+                Oliver Cat
+            </p>
+        </div>
+        <div class="add-div">
+            <button class="add-button">
+                Add Friend
+            </button>
+        </div>
+        <div class="message-div">
+            <button class="message-button">
+                Message
+            </button>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            height: 3000px;
+        }
+        p{
+            margin: 0;
+        }
+       
+        .photo-sidebar{
+            background-color: rgb(26, 25, 25);
+            position: fixed;
+            width: 66px;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-top: 10px;
+        }
+        .channel-logo{
+            width: 50px;
+            height: 50px;
+            object-fit: cover;
+            border-radius: 25px;
+            margin-bottom: 10px;
+        }
+        .info-sidebar{
+            width: 150px;
+            background-color: rgb(44, 44, 44);
+            position: fixed;
+            top: 0;
+            left: 66px;
+            bottom: 0;
+            padding-left: 15px;
+            padding-right: 25px;
+            padding-top: 10px;
+        }
+        .INFO-div{
+            display: flex;
+            align-items: center;
+            margin-bottom: 6px;
+        }
+        .INFO{
+            color: white;
+            font-size: 12px;
+            font-family: Arial;
+            font-weight: bold;
+            flex: 1;
+        }
+        .plus-icon{
+            color: rgb(160, 155, 155);
+            font-weight: bolder;
+            font-size: 25px;
+        }
+        .channel{
+            color: rgb(173, 173, 173);
+            font-family: Arial;
+            font-size: 14px;
+            margin-bottom: 18px;
+        }
+
+    </style>
+</head>
+<body>
+        <div class="photo-sidebar">
+            <img src="cat01.jpg" alt="" class="channel-logo">
+            <img src="cat02.jpg" alt="" class="channel-logo">
+            <img src="cat03.jpg" alt="" class="channel-logo">
+        </div>
+        <div class="info-sidebar">
+            <div class="INFO-div">
+                <p class="INFO">INFO</p>
+                <p class="plus-icon">&#43;</p>
+            </div>
+            <p class="channel">&#35;  new-videos</p>
+            <p class="channel">&#35;  updates</p>
+            <p class="channel">&#35;  faq</p>
+        </div>
+</body>
+</html>

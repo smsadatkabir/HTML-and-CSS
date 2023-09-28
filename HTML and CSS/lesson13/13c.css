@@ -1,0 +1,59 @@
+
+
+p{
+    margin: 0;
+}
+.message-box{
+    width: 350px;
+    margin-top: 150px;
+    margin-left: 100px;
+    border-color: lightgray;
+    border-radius: 5px;
+    padding: 10px 10px 20px 10px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.25);
+}
+.all-messages{
+    font-family: arial;
+    color: rgb(100,100,100);
+    font-size: 12px;
+}
+
+.message-preview{
+    display: flex;
+    margin-top: 20px;
+}
+.message-info{
+    flex: 1;
+}
+
+.sender-image{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius:25px;
+    margin-right: 10px;
+}
+
+.promotion-time{
+    display: flex;
+    justify-content: space-between;
+}
+.promotion{
+    width: 190px;
+}
+.promotion-text{
+    font-family: arial;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+}
+.time-text{
+    font-family: arial;
+    font-size: 12px;
+    color: gray;
+}
+.message-text{
+    font-family: arial;
+    font-size: 13px;
+    color: rgb(96,96,96);
+}

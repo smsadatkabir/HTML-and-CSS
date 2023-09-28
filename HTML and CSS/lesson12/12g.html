@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            font-family: Arial;
+            margin: 0 0 4px;
+        }
+        .flex-box{
+            width: 400px;
+            flex-direction: row;
+            display: flex;
+            align-items: center;
+        }
+        .profile-photo{
+            width: 70px;
+            height: 70px;
+            object-fit: cover;
+            border-radius: 140px;
+            margin: 8px 12px;
+        }
+        .profile-info{
+            width: 200px;
+        }
+
+        .follow-button{
+            padding: 8px 16px;
+            border: none;
+            border-radius: 4px;
+            background-color: rgb(67, 153, 252);
+            color: aliceblue;
+            font-size: 15px;
+        }
+        .profile-name{
+            font-weight: bold;
+
+        }
+        .profile-char{
+            color: gray;
+        }
+        .profile-stat{
+            color: gray;
+            font-size: 13px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-box">
+        <div class="photo">
+            <img src="cat01.jpg" class="profile-photo">
+        </div>
+        <div class="profile-info">
+            <p class="profile-name">oliver</p>
+            <p class="profile-char">the cat</p>
+            <p class="profile-stat">Pupular</p>
+        </div>
+        <div class="follow">
+            <button class="follow-button">Follow</button>
+        </div>
+    </div>
+    <div class="flex-box">
+        <div class="photo">
+            <img src="cat02.jpg" class="profile-photo">
+        </div>
+        <div class="profile-info">
+            <p class="profile-name">Mimi</p>
+            <p class="profile-char">Sleepy Cat</p>
+            <p class="profile-stat">Pupular</p>
+        </div>
+        <div class="follow">
+            <button class="follow-button">Follow</button>
+        </div>
+    </div>
+    <div class="flex-box">
+        <div class="photo">
+            <img src="cat03.jpg" class="profile-photo">
+        </div>
+        <div class="profile-info">
+            <p class="profile-name">Rex</p>
+            <p class="profile-char">Happy Bulldog</p>
+            <p class="profile-stat">Pupular</p>
+        </div>
+        <div class="follow">
+            <button class="follow-button">Follow</button>
+        </div>
+    </div>
+</body>
+</html>

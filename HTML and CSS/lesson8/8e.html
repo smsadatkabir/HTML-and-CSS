@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UBER Request form</title>
+    <style>
+        .title{
+            font-family: Arial;
+            font-size: 30px;
+            margin-bottom: 18px;
+        }
+        .uber-pickup,
+        .uber-destination{
+            display: block;
+            margin-bottom: 5px;
+            width: 300px;
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 12px;
+            padding-right: 12px;
+            font-size: 10px;
+            background-color: rgb(240, 240, 240);
+            color: rgb(100,100,100);
+            border: none;
+            border-radius: 3px;
+        }
+        .uber-destination:focus,
+        .uber-pickup:focus{
+            outline-color: rgb(0, 0, 0);
+            outline-style: solid;
+        }
+        button{
+            margin-top: 18px;
+            border: none;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 12px;
+            padding-right: 12px;
+            font-size: 12px;
+        }
+        .request-button{
+            color: white;
+            background-color: black;
+            margin-right: 8px;
+        }
+        
+        .later-button{
+            background-color: rgb(240, 240, 240);
+        }
+    </style>
+</head>
+<body>
+    <p class="title">
+        Request a ride now
+    </p>
+
+    <input type="text" placeholder="Enter pickup location" class="uber-pickup">
+    
+    <input type="text" placeholder="Enter destination" class="uber-destination">
+    
+    <button class="request-button">
+        Request now
+    </button>
+    
+    <button class="later-button">
+        Schedule for later
+    </button>
+</body>
+</html>

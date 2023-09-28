@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .facebook-add{
+            font-family: Arial;
+            box-shadow: 0px 0px 8px rgba(0,0,0,0.5);
+        }
+        .fb-photo{
+            width: 100%;
+            object-fit: cover;
+        }
+        .fb-name{
+            font-weight: bold;
+            font-size: 15px;
+            margin-top: 4px;
+            margin-bottom:4px;
+            padding-left: 5px;
+        }
+        .fb-mutual{
+            font-size: 13px;
+            color: rgb(100,100,100);
+            margin-left: 4px;
+        }
+        .add-button{
+            padding-top: 6px;
+            padding-bottom: 6px;
+            padding-left: 14px;
+            padding-right: 14px;
+            border-radius: 3px;
+            border-style: solid;
+            margin-left: 5px;
+            margin-bottom: 8px;
+            border: none;
+            color: white;
+            background-color: rgb(6, 115, 240);
+            cursor: pointer;
+        }
+        .mutual-photo{
+            width: 100%;
+            border-radius: 60px;
+            object-fit: cover;
+        }
+        .mutual-pic-div{
+            margin-left: 8px;
+            margin-bottom: 12px;
+            display: grid;
+            grid-template-columns: 25px 1fr;
+            align-items: center;
+        }
+        .facebook-add-grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 20px;
+            align-items: center;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="facebook-add-grid">
+        <div class="facebook-add">
+            <img src="cat01.jpg" class="fb-photo">
+            <p class="fb-name">Oliver</p>
+
+        <div class="mutual-pic-div">
+            <img class="mutual-photo" src="cat03.jpg">
+            <p class="fb-mutual">
+                2 mutual friends
+            </p>
+
+        </div>
+
+            <button class="add-button">Add Friend</button>
+
+    </div>
+
+    <div class="facebook-add">
+        <img src="cat02.jpg" class="fb-photo">
+        <p class="fb-name">Rex</p>
+        <div class="mutual-pic-div">
+            <img class="mutual-photo" src="cat03.jpg">
+            <p class="fb-mutual">10 mutual friends</p>
+        </div>
+
+        <button class="add-button">Add Friend</button>
+    </div>
+
+
+    <div class="facebook-add">
+        <img src="cat04.jpg" class="fb-photo">
+        <p class="fb-name">Mimi</p>
+        <div class="mutual-pic-div">
+            <img class="mutual-photo" src="cat03.jpg">
+            <p class="fb-mutual">7 mutual friends</p>
+        </div>
+        <button class="add-button">Add Friend</button>
+    </div>
+    </div>
+ 
+</body>
+</html>
